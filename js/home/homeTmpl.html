@@ -1,0 +1,11 @@
+<h1>Todd's World</h1>
+
+<div>
+	Name: {{name}}<br>
+	Location: {{location}}
+</div>
+
+<form ng-submit="submitName()">
+	<input type="text" placeholder="New Name" ng-model="newName">
+	<button ng-click="submitName()">Submit</button>
+</form>
